@@ -40,7 +40,7 @@ The four files (Scenario 1, Scenario 2, Scenario 3, Scenario 4) correspond to th
 
 The FeatureExtraction File generates and saves the 8 NLP schemes and the labels for each scenario. Then, in the scenario files, the 8 vectorizations and correct labels are imported. Four classifiers are built and evaluated for each of the 8 NLP schemes.
 
-The four classifies are:
+The four classifiers are:
 
 1) Logistic Regression
 2) Random Forest
