@@ -3,6 +3,7 @@
 This file cleans up and procecess the two tweetset.csv datasets so that they can be imported and used with the machine learning models
 
 processed_1.csv is generated from this file by processing tweetset_1.csv
+
 processed_2.csv is generated from this file by processing tweetset_2.csv
 
 # FeatureExtraction.ipynb
@@ -32,3 +33,24 @@ The unigrams and bigrams are generated with roughly the top 80% most frequently 
 The reduced unigrams and bigrams are sparse reductions that are 5% the size of the corresponding NLP vectors.
 
 Warning: Running this entire file and saving every subsequent NLP vector will take up a lot of storage (well over 100 GB). It is recommended that only 8 of the vectorizations corresponding to 1 specific scenario are run and saved at a time. That data should be used to train, evaluate, and save several machine learning models and then should be deleted before starting on another scenario to conserve space.
+
+# Scenario.ipynb Files
+
+The four files (Scenario 1, Scenario 2, Scenario 3, Scenario 4) correspond to the four scenarios outlined in the FeatureExtraction File. 
+
+The FeatureExtraction File generates and saves the 8 NLP schemes and the labels for each scenario. Then, in the scenario files, the 8 vectorizations and correct labels are imported. Four classifiers are built and evaluated for each of the 8 NLP schemes.
+
+The four classifies are:
+
+1) Logistic Regression
+2) Random Forest
+3) Deep Neural Network
+4) Deep Neural Network with Early Stopping
+
+The evaluation metrics for the classifiers are:
+
+1) Accuracy
+2) ROC AUC Score
+3) F1 Score
+4) Precision
+5) Recall
