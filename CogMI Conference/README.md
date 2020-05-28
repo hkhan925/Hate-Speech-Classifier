@@ -54,3 +54,13 @@ The evaluation metrics for the classifiers are:
 3) F1 Score
 4) Precision
 5) Recall
+
+Warning: Running the entire Scenario file for some of the scenarios may cause the kernel to crash at the Bigram/Tf-idf Bigram classifiers. It is recommended that those sections are run independently of each other and all the other NLP schemes through kernel resets.
+
+# WordCloud.ipynb
+
+This file generates Word Clouds for the datasets to show the distribution of words in the corpus
+
+# FeatureStatistics.ipynb
+
+This file generates informative statistics and visualizations highlighting key characteristics of the datasets
