@@ -6,6 +6,14 @@ processed_1.csv is generated from this file by processing tweetset_1.csv
 
 processed_2.csv is generated from this file by processing tweetset_2.csv
 
+# WordCloud.ipynb
+
+This file generates Word Clouds for the datasets to show the distribution of words in the corpus. The wordclouds had some words filtered out so that they would be more informative.
+
+It can be seen through the wordclouds that for tweetset_1.csv, there is significant overlap between the words in the offensive class and the hate class. Similarly, for tweetset_2.csv, there is overlap between the offensive and hate class, but not as extensively. The offensive/hate classes together from one dataset also overlap with the offensive/hate classes together of the other. As such, for both datasets, the offensive and hate classes are grouped into one cumulative class.
+
+The wordclouds for the processed datasets are also generated.
+
 # FeatureExtraction.ipynb
 
 This file creats 8 different NLP vectorizations for 4 different scenarios
@@ -57,9 +65,6 @@ The evaluation metrics for the classifiers are:
 
 Warning: Running the entire Scenario file for some of the scenarios may cause the kernel to crash at the Bigram/Tf-idf Bigram classifiers. It is recommended that those sections are run independently of each other and all the other NLP schemes through kernel resets.
 
-# WordCloud.ipynb
-
-This file generates Word Clouds for the datasets to show the distribution of words in the corpus
 
 # FeatureStatistics.ipynb
 
