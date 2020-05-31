@@ -14,6 +14,10 @@ It can be seen through the wordclouds that for tweetset_1.csv, there is signific
 
 The wordclouds for the processed datasets are also generated.
 
+# Metadata.ipynb
+
+This file generates informative statistics and visualizations highlighting key characteristics of the datasets, including the counts and distributions of punctuation in tweets, hashtags, and twitter mentions.
+
 # FeatureExtraction.ipynb
 
 This file creats 8 different NLP vectorizations for 4 different scenarios
@@ -64,8 +68,3 @@ The evaluation metrics for the classifiers are:
 5) Recall
 
 Warning: Running the entire Scenario file for some of the scenarios may cause the kernel to crash at the Bigram/Tf-idf Bigram classifiers. It is recommended that those sections are run independently of each other and all the other NLP schemes through kernel resets.
-
-
-# FeatureStatistics.ipynb
-
-This file generates informative statistics and visualizations highlighting key characteristics of the datasets
