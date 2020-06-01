@@ -68,3 +68,7 @@ The evaluation metrics for the classifiers are:
 5) Recall
 
 Warning: Running the entire Scenario file for some of the scenarios may cause the kernel to crash at the Bigram/Tf-idf Bigram classifiers. It is recommended that those sections are run independently of each other and all the other NLP schemes through kernel resets.
+
+# Compiled Metrics.xlsx
+
+Data tables containing the values for the 5 metrics for the 8 NLP vectorizations for the 4 scenarios.
