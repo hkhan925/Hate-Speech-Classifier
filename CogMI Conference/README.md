@@ -71,4 +71,4 @@ Warning: Running the entire Scenario file for some of the scenarios may cause th
 
 # Compiled Metrics.xlsx
 
-Data tables containing the values for the 5 metrics for the 8 NLP vectorizations for 4 classifiers the 4 scenarios.
+Data tables containing the values for the 5 metrics for the 8 NLP vectorizations for 4 classifiers for the 4 scenarios.
