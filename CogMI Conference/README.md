@@ -14,6 +14,8 @@ It can be seen through the wordclouds that for tweetset_1.csv, there is signific
 
 The wordclouds for the processed datasets are also generated.
 
+All the wordclouds are saved in the "Wordclouds Images" folder
+
 # Metadata.ipynb
 
 This file generates informative statistics and visualizations highlighting key characteristics of the datasets, including the counts and distributions of punctuation in tweets, hashtags, and twitter mentions.
